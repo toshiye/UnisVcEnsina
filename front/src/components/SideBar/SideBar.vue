@@ -1,7 +1,11 @@
 <template>
     <div>
-        <b-button v-b-toggle.sidebar-variant>Toggle Sidebar</b-button>
-        <b-sidebar id="sidebar-variant" title="Sidebar" bg-variant="dark" text-variant="light" shadow>
+        <!-- 
+            No title do sidebar, colocar o nome do curso que o aluno estuda 
+            Adicionar sub menu com as matérias do módulo/unidade/semestre/ano
+            Adicionar sub menu com todas as matérias do curso em todos os módulos
+        -->
+        <b-sidebar id="sidebar-variant" title="Matérias" bg-variant="dark" text-variant="light" shadow>
             <div class="px-3 py-2">
                 <p>
                 Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis

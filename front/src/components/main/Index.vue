@@ -1,3 +1,7 @@
+/* 
+    Esta será a página principal antes do login
+*/
+
 <template>
     <div id="main">
         <h1>Teste index!!!</h1>
